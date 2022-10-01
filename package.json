@@ -1,0 +1,17 @@
+{
+  "name": "exercise2_automation",
+  "version": "1.0.0",
+  "description": "Excercise 2 Automation - Jobsity Job Apply",
+  "main": "index.js",
+  "scripts": {
+    "bootC": "npx cypress run",
+    "openC": "npx cypress open",
+    "chromeTestR": "npm run bootC -- --browser chrome --headed"
+  },
+  "author": "Jose Salgado",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.9.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
